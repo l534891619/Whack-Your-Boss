@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.example.com'),
+  metadataBase: new URL('https://whackyourboss.world'),
   title: {
     default: 'Whack Your Boss - Play Online | Stress Relief Game Landing',
     template: '%s | Whack Your Boss'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Whack Your Boss - Play Online',
     description: 'Play whack your boss online with tips, controls, endings list, and related games. Fast, mobile-friendly, and SEO-optimized.',
-    url: 'https://www.example.com/',
+    url: 'https://whackyourboss.world/',
     siteName: 'Whack Your Boss Online',
     images: [
       { url: '/og-cover.jpg', width: 1200, height: 630, alt: 'Whack Your Boss Landing' }
